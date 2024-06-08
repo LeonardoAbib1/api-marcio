@@ -9,3 +9,5 @@ const Produto = mongoose.model("Produto", {
   preco: Number,
   data: Date,
 });
+
+module.exports = Produto;
