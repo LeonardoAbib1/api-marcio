@@ -47,7 +47,7 @@ router.post("/criar", async (req, res) => {
     peso,
     tipo,
     preco,
-    data: new Date(),
+    data,
   });
 
   try {
